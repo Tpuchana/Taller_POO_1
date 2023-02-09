@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author user
  */
-public class Ejercicio_dos {
+public class ejercicio_dos {
     
     public static void main(String[] args){
         
@@ -29,8 +29,10 @@ public class Ejercicio_dos {
         h_cilindro = input.nextInt();
         
         double area_cir = (r_circulo*r_circulo)*(3.1416);
+        double vol_cil = (r_cilindro*r_cilindro)*(3.1416)*(h_cilindro);
         
-        System.out.println("El área del círculo es"+area_cir);
+        System.out.println("El área del círculo es: "+area_cir+ "m cuadrados");
+        System.out.println("El volumen del cilindro es: "+vol_cil+ "m cúbicos");
         
         
         

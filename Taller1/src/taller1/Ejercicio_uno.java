@@ -46,7 +46,7 @@ public class Ejercicio_uno {
        System.out.println("Ingrese la universidad donde estudia: ");
        Universidad_estudia = input.next();
        
-        System.out.println("Hola mi nombre es "+ Nombre + 
+        System.out.println("Hola, mi nombre es "+ Nombre + 
                 "\n tengo " + Edad + "años, vivo en " + Ciudad+
                 " y mido " + Estatura + "m "); 
        }
