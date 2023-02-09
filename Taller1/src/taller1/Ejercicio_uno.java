@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author SALA
  */
-public class Taller1 {
+public class Ejercicio_uno {
 
     /**
      * @param args the command line arguments
