@@ -19,7 +19,7 @@ public class Taller1 {
      */
     public static void main(String[] args) {
  
-       /*String Nombre;
+       String Nombre;
        int Edad;
        String Ciudad;
        boolean MayorEdad;
@@ -48,33 +48,10 @@ public class Taller1 {
        
         System.out.println("Hola mi nombre es "+ Nombre + 
                 "\n tengo " + Edad + "años, vivo en " + Ciudad+
-                " y mido " + Estatura + "m "); */
+                " y mido " + Estatura + "m "); 
        }
-       
-       //Punto 4
-    
-    System.out.println("Ingrese un número entero positivo: ");
-    
-    int cont = 2, num = input.nextInt();
-    boolean primo = true;
-    
-    while(primo == true && cont <num) {
-       mod=num%cont;
-       
-       if(mod == 0){
-           primo = false;   
-       }
-       cont++;
 }
-if (primo == true){
-    System.out.println("El número es primo")
-}else{
-            System.out.println("El número no es primo");
-}    
        
-       
-    
-    }
     
 
 
