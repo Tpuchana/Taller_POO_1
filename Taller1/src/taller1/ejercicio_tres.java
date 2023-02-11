@@ -4,6 +4,8 @@
  */
 package taller1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author user
@@ -15,8 +17,19 @@ public class ejercicio_tres {
      */
     public static void main(String[] args) {
         
+        int num;
+        Scanner input = new Scanner(System.in);
         
-        // TODO code application logic here
+        System.out.println("Ingrese un número entero: ");
+        num = input.nextInt();
+        
+        if (num%2 == 0) {
+            System.out.println("El número es par");
+    }
+        else if (num%2 == 1) {
+            System.out.println("El número es impar");
+        }
+        
     }
     
 }
