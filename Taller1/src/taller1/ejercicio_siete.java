@@ -10,28 +10,26 @@ import java.util.Scanner;
  *
  * @author user
  */
-public class ejercicio_seis {
+public class ejercicio_siete {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String password;
-        String pass2;
+        int numero;
         Scanner input = new Scanner(System.in);
+        System.out.println("Inserte un numero");
+        numero = input.nextInt();
         
-        System.out.println("Ingrese la contraseña: ");
-        password = input.nextLine();
-        System.out.println("Inserte nuevamente su contraseña: ");
-        pass2 = input.nextLine();
-        
-        if(pass2.equals(password)){
-            System.out.println("La contraseña es correcta");
+        for (int i = 1; i<11; i++) {
+            int resultado = numero*i;
+            System.out.println("El resultado de "+numero+" x "+i+" es: "+resultado);
+            
+            
+            
+            
         }
-        
-        else {
-            System.out.println("La contraseña es incorrecta");
-        }
+                
         
         
     }
