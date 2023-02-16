@@ -1,10 +1,12 @@
+package taller1;
+
+
+import java.util.Scanner;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package taller1;
-
-import java.util.Scanner;
 
 /**
  *
@@ -16,29 +18,21 @@ public class ejercicio_ocho {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int numero;
         Scanner input = new Scanner(System.in);
-        System.out.println("Ingrese un número: ");
-        numero = input.nextInt();
-        
-        for (int altura = 1; altura<=numero; altura++){
-            for( int blancos =1; blancos<=numero-altura; blancos++){
-                System.out.println(" ");
-                
-            }
-            
-            for(int asterisco=1; asterisco<=(altura*2)-1; asterisco++){
-                System.out.println("*");
-            }
-                   
-                
-            
-            
-        }
-        
+               System.out.print("Introduzca numero de filas: ");
+        int numFilas = input.nextInt();
        
-       
+        
+ 
+        System.out.println();
+        for(int i = 1; i<=numFilas; i++){
+             for(int asteriscos=1; asteriscos<=(i); asteriscos++){
+                System.out.print("*");
+            }
+            System.out.println();
+        } 
         
     }
     
 }
+
