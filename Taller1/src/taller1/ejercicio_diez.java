@@ -13,12 +13,12 @@ import java.lang.Math;
  */
 public class ejercicio_diez {
 
-    /**
-     * @param args the command line arguments
-     */
+    
+      
+    
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
-        /*System.out.println("Ingrese un número entero: ");
+        System.out.println("Ingrese un número entero: ");
         int num1 = input.nextInt();
         int base = 16;
         int modulo;
@@ -86,43 +86,9 @@ public class ejercicio_diez {
             System.out.println(resp+"///"+ cociente);
         }while (cociente>0);
                
-        System.out.println("El número "+num1+" en Hexadecimal es:"+resp);*/
+        System.out.println("El número "+num1+" en Hexadecimal es:"+resp);
         
-        System.out.println("Ingrese un número hexadecimal: ");
-        String num1 = input.next();
-        int base = 16;
-        double resp=0;
-        int cont = num1.length();
-        char Aux;
-        
-        for (int i = 0; i< num1.length(); i++){
-            Aux = num1.charAt(i);
-            switch (Aux){
-                case '0' -> resp = resp + 0*(base^cont);
-                case '1' -> resp = resp + 1*(base^cont);
-                case '2' -> resp = resp + 1*(base^cont);
-                case '3' -> resp = resp + 1*(base^cont);
-                case '4' -> resp = resp + 1*(base^cont);
-                case '5' -> resp = resp + 1*(base^cont);
-                case '6' -> resp = resp + 1*(base^cont);
-                case '7' -> resp = resp + 1*(base^cont);
-                case '8' -> resp = resp + 1*(base^cont);
-                case '9' -> resp = resp + 1*(base^cont);
-                case 'A' -> resp = resp + 1*(base^cont);
-                case 'B' -> resp = resp + 1*(base^cont);
-                case 'C' -> resp = resp + 1*(base^cont);
-                case 'D' -> resp = resp + 1*(base^cont);
-                case 'E' -> resp = resp + 1*(base^cont);
-                case 'F' -> resp = resp + 1*(base^cont);
-                default -> resp = resp+"";
-                    
-            }
-            cont--;
-        }
-        
-        System.out.println("El número "+num1+" En decimal es: "+resp);
-        
-        
+       
         
         
        
