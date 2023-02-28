@@ -20,26 +20,26 @@ public class ejercicio_nueve {
     
     Scanner input = new Scanner (System.in);
         
-    int a;
-    int b;
+    int num1;
+    int num2;
     int mcm;
     int i;
-    int c,d;
+    int a,b;
         
         System.out.println("Ingresar primer numero (Para el MCM): ");
-        a = input.nextInt();
+        num1 = input.nextInt();
         
     System.out.println("Ingresar segundo numero (Para el MCM): ");
-    b = input.nextInt();
+    num2 = input.nextInt();
         
         mcm=1;
         i=2;
         
-        while(i<=a || i<=b){
-            if (a%i==0 || b%i==0){
+        while(i<=num1 || i<=num2){
+            if (num1%i==0 || num2%i==0){
                 mcm=mcm*i;
-                if (a%i==0) a=a/i;
-                if (b%i==0) b=b/i;
+                if (num1%i==0) num1=num1/i;
+                if (num2%i==0) num2=num2/i;
             }
             else
                 i=i+1;
@@ -51,16 +51,16 @@ public class ejercicio_nueve {
         System.out.println("Ingresar segundo numero (Para el MCD): ");
         d = input.nextInt();
         
-        while(c!=d){
-            if(c>d)
-                c=c-d;
+        while(a!=b){
+            if(a>b)
+                a=a-b;
         else 
-                d=d-c;
+                b=b-b;
             
             }
   
             System.out.println("El MCM es "+mcm);
-            System.out.println("El MCD es "+c);
+            System.out.println("El MCD es "+a);
     }
     
 }
